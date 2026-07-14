@@ -1,0 +1,52 @@
+# Build folders
+build/
+Debug/
+Release/
+cmake-build-*/
+
+# Object and binary files
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+*.a
+*.so
+*.d
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# VS Code
+.vscode/
+!.vscode/extensions.json
+
+# STM32CubeMX generated settings
+*.launch
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Python (if used for scripts)
+__pycache__/
+*.pyc
+
+# Backup files
+*.orig
